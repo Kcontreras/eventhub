@@ -46,7 +46,7 @@ export default function BookingCard({ booking }) {
           <div className="flex-1 min-w-0">
             {/* Ref + status */}
             <div className="flex items-center gap-2 flex-wrap mb-2">
-              <span className="booking-ref font-mono text-xs font-bold text-indigo-600 bg-indigo-50 px-2.5 py-1 rounded-lg">
+              <span data-testid="booking-ref" className="booking-ref font-mono text-xs font-bold text-indigo-600 bg-indigo-50 px-2.5 py-1 rounded-lg">
                 {booking.bookingRef}
               </span>
               <Badge variant={booking.status === 'confirmed' ? 'success' : 'danger'}>
