@@ -1,0 +1,11 @@
+node_modules
+backend
+frontend
+docs
+playwright-report
+test-results
+.claude
+.github
+*.md
+.gitignore
+.dockerignore
