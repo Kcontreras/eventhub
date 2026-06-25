@@ -1,5 +1,5 @@
 services:
-  playwright:
+  test:
     build:
       context: .
       dockerfile: Dockerfile.playwright
